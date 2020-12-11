@@ -8,6 +8,12 @@ public class Main {
     public static void main(String[] args) {
         
         Vector<String> vector =  new Vector<String>();
+        /*
+        Vectorler arraylistlerin içerisinde bulundurmadğı bir yapıyı barındırmaktadır Sycronized yapısı...Diğer projelerde detaylı uygulamalarla anlatmayı planlıyorum....
+        bunun yanı sıra vector yapıalrı thread ler ile kullanıldığında arrayliste kıyasla daha güvenli fakat arrayliste kıyasla daha yavaş 
+        Eğer performans sıkıntısı çekiyorsanız ve thread kullanmıyacaksanız arraylistleri tercih edebilirsiniz.
+        Vectorler ile arraylistler bu konu dışında genel hatlar ile birbirlerine çok benzemektedir.
+        */
         
         vector.add("Java");
         vector.add("Python");
