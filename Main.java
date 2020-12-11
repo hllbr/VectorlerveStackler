@@ -21,21 +21,21 @@ public class Main {
         vector.add("Php");
         
        /* for (String s : vector) {
-            
+            //Vectorlerin basılması olayı arraylistlerde olduğu gibi 
             System.out.println(s);
         }*/
        
         
         /*ListIterator<String> iterator =  vector.listIterator();
-        
+        //ArrayList ve LinkedListlerde yaptığımız gibi Vectorler üzerinde de listItetator kullanabiliriz.
         while (iterator.hasNext()) {
-            
+            //Iterator üzerinde geinme işlemimiz
             System.out.println(iterator.next());
             
         }*/
         
        /* Enumeration<String> enumaration = vector.elements();
-        
+        //Iterator sınıfı gibi vectorlerin üzerinde gezinmemize yardımcı olan bir sınıf
         while (enumaration.hasMoreElements()) {
             
             System.out.println(enumaration.nextElement());
