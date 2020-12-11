@@ -45,6 +45,15 @@ public class Main {
         //System.out.println("Son Eleman : " + vector.lastElement());
         
         Stack<String> stack = new Stack<String>();
+        
+        /*Veri Yapıları Derslerinde önemli bir yere sahip Arraylistler gibi depo sistemi var ilk giren en alta yerleşiyor ve sıralya üstüne veri alıyor...
+        Çalışma Mantıkları LIFO-->> Son giren ilk çıkar mantığı ile çalışmaktadırlar.
+        Oldukça Fazla kullanılan bir veri yapısıdır.Stacler sebeplerinden biri bu çalışma mekaniğidir.
+        Stacler vectorleri extends ediyor.Syncronized anahtar kelimesine sahipler(Ortak olarak),
+        add ile eleman ekleme işlemi yapılır fakat pro arenada push kullanılıyor.
+        */
+        
+        
         System.out.println(stack.empty());
 
         
