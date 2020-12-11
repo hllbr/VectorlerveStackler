@@ -2,7 +2,7 @@
 import java.util.Enumeration;
 import java.util.Stack;
 import java.util.Vector;
-//Source = Mustafa Murat COŞKUN / UDEMY
+//Source = Mustafa Murat COŞKUN / UDEMY referans alınarak geliştirilmiştir..
 
 public class Main {
     public static void main(String[] args) {
